@@ -1,0 +1,81 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(99,100,163);
+    /*#6364a3* #898dca*/
+    color: #dddde5;
+  
+  }
+  
+  h1, p {
+    text-align: center;
+    font-weight: 100;
+  
+  }
+  
+  
+  form {
+    background-color: #2e2d4a;
+    /* rgba(46,45,74,255)*/
+    border: 1px solid #2e2d4a;
+    border-radius: 5px;
+    padding: 40px;
+    width: 30%;
+    min-width: 550px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 20px;
+    /*border: 2px solid red;*/
+  }
+  
+  .gap {
+    margin-bottom: unset;
+  }
+  
+  input, 
+  textarea,
+  select {
+    width: 100%;
+    min-height: 2em;
+    margin: 10px 0 0 0;
+  
+  }
+  
+  input,
+  textarea {
+    box-sizing: border-box;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  span.text {
+    font-size: 15px;
+  }
+  
+  div {
+    margin-bottom: 5px;
+  }
+  input[type="submit"] {
+    display: block;
+    height: 2em;
+    /*font-size: 1.1rem;*/
+    background-color: #34ac64;
+    border: none;
+    color: #dddde5;
+  
+    /*border-color: white;
+    min-width: 300px;*/
+  }
+  
+  input[type="checkbox"], 
+  input[type="radio"] {
+    width: 20px;
+  }

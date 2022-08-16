@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+    <form id="survey-form">
+      <label id="name-label">Name<input id="name" type="text" required placeholder="Enter your name" /></label>
+      <label id="email-label">Email<input id="email" type="email" required placeholder="Enter your Email" /></label>
+      <label id="number-label">Age <span class="text">(optional)</span><input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+      <label>What option best describes your current role?
+      <select id="dropdown">  
+        <option disabled>Select current role</option>
+        <option>Student</option>
+        <option>Full Time Job</option>
+        <option>Full Time Learner</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select>
+      </label>
+  
+      <div>Would you recommend freeCodeCamp to a friend?</div>
+      <label class="gap"><input type="radio" name="recommend" value="definately" class="inline">Definately</label>
+      <label class="gap"><input type="radio" name="recommend" value="maybe" class="inline">Maybe</label>
+      <label class=""><input type="radio" name="recommend" value="not sure" class="inline">Not sure</label>
+      
+  
+      <label>What is your favorite feature of freeCodeCamp?
+      <select>
+        <option disabled>Select an option</option>
+        <option>Challenges</option>
+        <option>Projects</option>
+        <option>Community</option>
+        <option>Open Source</option>
+        <option>Other</option>
+      </select>
+      </label>
+      
+      <div>What would you like to see improved? <span class="text" >(Check all that apply)</span></div>
+      <label class="gap"><input type="checkbox" name="" value="fe" class="inline">Front-end Projects</label>
+      <label class="gap"><input type="checkbox" name="" value="be" class="inline">Back-end Projects</label>
+      <label class="gap"><input type="checkbox" name="" value="dv" class="inline">Data Visualization</label>
+      <label class="gap"><input type="checkbox" name="" value="challenges" class="inline">Challenges</label>
+      <label class="gap"><input type="checkbox" name="" value="osc" class="inline">Open Source Community</label>
+      <label class="gap"><input type="checkbox" name="" value="ghr" class="inline">Gitter help rooms</label>
+      <label class="gap"><input type="checkbox" name="" value="videos" class="inline">Videos</label>
+      <label class="gap"><input type="checkbox" name="" value="cm" class="inline">City Meetups</label>
+      <label class="gap"><input type="checkbox" name="" value="wiki" class="inline">Wiki</label>
+      <label class="gap"><input type="checkbox" name="" value="forum" class="inline">Forum</label>
+      <label class=""><input type="checkbox" name="" value="ac" class="inline">Additional Courses</label>
+          
+      <label>Any comments or suggestions?<textarea name="suggestions" placeholder="Enter your comment here..." rows="4"></textarea></label>
+      <input id="submit" type="submit" name="">
+  
+    </form>
+</body>
+</html>
